@@ -10,10 +10,7 @@ namespace Digits
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            int third = n % 10;
-            int second = ((n % 100) - third) / 10;
-            int first = n / 100;
+           
             for (int row = 1; row <= (first + second); row++)
             {
                 for (int col = 1; col <= (first + third); col++)

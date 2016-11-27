@@ -10,6 +10,7 @@ namespace Digits
     {
         static void Main(string[] args)
         {
+            int n = int.Parse(Console.ReadLine());
            
             for (int row = 1; row <= (first + second); row++)
             {
